@@ -18,7 +18,6 @@ public class Day1 {
 		//List<String> input = Files.readAllLines(Paths.get("day1.in"));
 		//The above is a nicer way to read files and such. Use later.
 		
-		//PART 1\\
 		Scanner file = new Scanner(new File("day1.in"));
 		String input = file.nextLine();
 		
@@ -31,6 +30,7 @@ public class Day1 {
 			int_array[i] = Character.getNumericValue(char_array[i]);
 		}
 		
+		//PART 1\\
 		int total = 0;
 		for(int x = 0; x < char_array.length - 1; x++){
 			if (char_array[x] == char_array[x + 1]){
